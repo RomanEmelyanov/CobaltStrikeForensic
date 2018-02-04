@@ -1,0 +1,12 @@
+86.105.1.116,/supergeturi
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; LEN2)
+@/superposturi
+Host: servicenetupdate.com
+Host: servicenetupdate.com
+&Content-Type: application/octet-stream
+@%windir%\syswow64\rundll32.exe
+@%windir%\sysnative\rundll32.exe
+\\%s\pipe\msagent_%x
+POST
+Time/Date		Tue May 23 00:21:18 2017
+Time/Date stamp 		5923564d
