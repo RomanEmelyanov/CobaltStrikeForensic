@@ -9,7 +9,7 @@ class Test
 {
     public static void Main()
     {
-		string ps = File.ReadAllText("LEVEL2m.ps1");
+		string ps = File.ReadAllText("custom.ps1");
 		// Console.WriteLine(ps);
 		Runspace runspace = RunspaceFactory.CreateRunspace();
 		runspace.Open();
