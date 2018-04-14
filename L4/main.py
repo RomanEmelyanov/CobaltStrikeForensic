@@ -128,16 +128,12 @@ def get_next_tree_level(key_context):
 # offset 000026E4
 def build_compression_tree(payload, payload_decrypt_param):
     compression_tree_view = [0] * 0x1A
-    compression_tree = []
-    
-    for i in range(0x300):
-        compression_tree.append(Node(i))
+    compression_tree = [Node(i) for i in range(0x300)]
 
     for i in range(0x3C):
-        tmp = get_next_tree_level(payload_decrypt_param)
-        tmp %= 0x1A
-        if not compression_tree_view[tmp]:
-            compression_tree_view[tmp] = i % 3 + 1
+        compression_tree_view_id = get_next_tree_level(payload_decrypt_param) % 0x1A
+        if not compression_tree_view[compression_tree_view_id]:
+            compression_tree_view[compression_tree_view_id] = i % 3 + 1
 
     current_char_id = 0
     current_free_node_id = 26
@@ -155,7 +151,6 @@ def build_compression_tree(payload, payload_decrypt_param):
         current_char_id += 1
         for level_id in range(tree_level_count-1):
             current_payload_char = payload[current_char_id]
-            #print(chr(current_payload_char))
             current_char_id += 1
             if not current_payload_char:
                 break
@@ -193,7 +188,6 @@ def uncompress_payload(payload, compression_tree):
     while char_id < payload_len:
         current_node = compression_tree[payload[char_id] - ord('a')]
         
-        next_level_id = 0
         while True:
             next_level_id = current_node.next_level_id
             char_id += 1
@@ -205,7 +199,6 @@ def uncompress_payload(payload, compression_tree):
                 break
             while current_node.current_level_id:
                 if current_node.code_symbol == payload[char_id]:
-                    #current_node = compression_tree[current_node.current_level_id]
                     break
                 current_node = compression_tree[current_node.current_level_id]
             
