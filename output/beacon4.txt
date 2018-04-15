@@ -1,0 +1,12 @@
+46.21.147.61,/hg,helpdesk-oracle.com,/hg
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+@/hp
+Host: helpdesk-oracle.com
+Host: helpdesk-oracle.com
+&Content-Type: application/octet-stream
+@%windir%\syswow64\rundll32.exe
+@%windir%\sysnative\rundll32.exe
+\\%s\pipe\msagent_%x
+POST
+Time/Date		Mon May 22 17:21:18 2017
+Time/Date stamp 		5923564d
