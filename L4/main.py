@@ -205,9 +205,10 @@ def uncompress_payload(payload, compression_tree):
                     break
                 current_node = compression_tree[current_node.current_level_id]
             
-        tt1 = current_node.leaf
-        tt2 = result_char_id & 0xFF
-        result_char = (tt1 - tt2) if tt1 >= tt2 else (0x100 + tt1 - tt2)
+        found_leaf = current_node.leaf
+        cutted_result_char_id = result_char_id & 0xFF
+        result_char = (found_leaf - cutted_result_char_id) \
+            if found_leaf >= cutted_result_char_id else (0x100 + found_leaf - cutted_result_char_id)
         result_char_id += 1
         result.append(result_char)
     
