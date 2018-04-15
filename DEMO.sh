@@ -9,4 +9,4 @@ cat output/beacon2.txt
 cat output/procdump3.txt
 cat output/screenshot3.txt
 ./sample4.sh
-cat output/beacon4_enc.txt
+cat output/beacon4.txt
