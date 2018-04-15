@@ -117,9 +117,8 @@ def create_key_context(payload, payload_key):
 #offset 000028F9
 def get_next_tree_level(key_context):
     tmp1 = 0x36A6E006 * key_context[0]
-    v1 = tmp1 & 0xFFFFFFFF
     key_context[0] = key_context[1]
-    tmp2 = v1 + key_context[3]
+    tmp2 = (tmp1 & 0xFFFFFFFF) + key_context[3]
     result = tmp2 & 0xFFFFFFFF
     key_context[1] = key_context[2]
     key_context[2] = result
