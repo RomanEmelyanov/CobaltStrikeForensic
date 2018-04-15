@@ -1,3 +1,6 @@
+#!/usr/bin/python
+
+
 import struct
 import click
 from settings import *
