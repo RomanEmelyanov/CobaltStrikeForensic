@@ -1,7 +1,3 @@
-Get notified about Cobalt Strike updates. Sign up for the Cobalt Strike Technical Notes mailing list. We will email you when an update is ready. We won't send spam or give away your information. 
-
-E-mail Address: 
- 
 Cobalt Strike Release Notes
 -------------
 Welcome to Cobalt Strike 3.x. Here are a few things you'll want to know, right away:
