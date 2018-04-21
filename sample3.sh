@@ -5,3 +5,5 @@
 ./L4/main.py --in_file=input/screenshot3.html --out_file=output/screenshot3.dll
 objdump -p output/procdump3.dll | grep ^Time > output/procdump3.txt
 objdump -p output/screenshot3.dll | grep ^Time > output/screenshot3.txt
+./L4/Response.py input/procdump3.post output/procdump3_post.txt
+./L4/Response.py input/screenshot3.post output/screenshot3_post.jpg
