@@ -13,6 +13,9 @@ Trying 185.180.196.53...
 
 Related news:
 1 https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain
+
 2 https://blog.trendmicro.com/trendlabs-security-intelligence/backdoor-carrying-emails-set-sights-on-russian-speaking-businesses/
+
 3 https://www.group-ib.com/blog/renaissance
+
 4 https://www.ptsecurity.com/ww-en/about/news/292575/
