@@ -12,6 +12,7 @@ $ curl -v -A "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 7.0; InfoPath.3; .N
 Trying 185.180.196.53...
 
 Related news:
+
 1 https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain
 
 2 https://blog.trendmicro.com/trendlabs-security-intelligence/backdoor-carrying-emails-set-sights-on-russian-speaking-businesses/
