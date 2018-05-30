@@ -1,3 +1,5 @@
+Carbanak/Cobalt CyberGang toolset, may 2018:
+
 Fishing attachment "67972318.doc.zip" password is "virus"
 
 Sample: https://www.hybrid-analysis.com/sample/af9ed7de1d9d9d38ee12ea2d3c62ab01a79c6f4b241c02110bac8a53ea9798b5/5b0bdfff7ca3e145a22ff941
@@ -8,3 +10,9 @@ JS: https://app.any.run/tasks/3705a1c8-a57f-42fe-9ff1-23e045f2d16a
 
 $ curl -v -A "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 7.0; InfoPath.3; .NET CLR 3.1.40767; Trident/6.0; en-IN)" http://secure.n-document[.]biz/humans.txt
 Trying 185.180.196.53...
+
+Related news:
+1 https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain
+2 https://blog.trendmicro.com/trendlabs-security-intelligence/backdoor-carrying-emails-set-sights-on-russian-speaking-businesses/
+3 https://www.group-ib.com/blog/renaissance
+4 https://www.ptsecurity.com/ww-en/about/news/292575/
