@@ -4,6 +4,7 @@
 
 """
 Script for detect Cobalt Strike team server
+Usage example: ./script.py http://cs_host:cs_port
 https://blog.fox-it.com/2019/02/26/identifying-cobalt-strike-team-servers-in-the-wild/
 https://github.com/NanoHttpd/nanohttpd-java-1.1/blob/nanohttpd-for-java1.1/NanoHTTPD.java#L778
 https://www.cobaltstrike.com/releasenotes.txt:
