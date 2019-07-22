@@ -1,1 +1,3 @@
-Source here https://www.cobaltstrike.com/releasenotes.txt
+Actual:
+https://www.cobaltstrike.com/releasenotes.txt
+https://verify.cobaltstrike.com/
