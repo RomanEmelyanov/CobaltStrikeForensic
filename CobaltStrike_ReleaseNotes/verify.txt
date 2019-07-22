@@ -1,0 +1,70 @@
+https://verify.cobaltstrike.com/
+
+# Cobalt Strike 3.14 (May 4, 2019) [bug fixes]
+0e3e7ace7f6f99b9227e9e644ae0e7469e79e4fc746a8f632940e35821a74da9	Cobalt Strike 3.14 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.14 (May 2, 2019)
+303486b3b06ef6b1e6c8facfe3ccc4a525f2795b7f55faca591f66c70baa2bda	Cobalt Strike 3.14 MacOS X Trial Package
+8d9522c69a4df90f2738498ec836f2c44632c10406f81cad1b1d992eccca62cf	Cobalt Strike 3.14 Linux Trial Package
+a5c9ec241baa6a85c77460e63b9fb50b4c2ced7186a0f947b9bf0397215659ff	Cobalt Strike 3.14 Windows Trial Package
+283d9074bc089841b9ef39100928ed240721c3dbce003c93f4283d71d7a3a410	Cobalt Strike 3.14 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.13 (January 2, 2019)
+b4f0fdbc782d1b81a8aa6176a5bfa9c1e76754b6f74a1224c79812ce7e0c2284	Cobalt Strike 3.13 MacOS X Trial Package
+a28aa4aa35190a2d6d09c1c6f894bb51f86f7d4a93a60b40bf6933bb4e9245e2	Cobalt Strike 3.13 Linux Trial Package
+f5865b4c05742b07f8fcd21e847a1657ec6908887a2787ffd27fe05de7b905c6	Cobalt Strike 3.13 Windows Trial Package
+2c44e5426c41798dd11764cf64bf493ff81d4e77e3ed96dd6c65cf3333bdd809	Cobalt Strike 3.13 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.12 (September 6, 2018)
+b43fda924df85ff9f30864c1d17f6df5c3e73d28a31666e58a12f529084a6a0a	Cobalt Strike 3.12 MacOS X Trial Package
+05faf192798d94a63ab6610c0c9459c4b446c4d594188abcaa3236b6d7d2593d	Cobalt Strike 3.12 Linux Trial Package
+70f4d53d02a68641ed816ef97a51b091267228dd5ab22dcc5c6dc1aef233345a	Cobalt Strike 3.12 Windows Trial Package
+4349e9195e083573fca38a35f7327b6d2a95538101bef9c9efdb7476d4642d8c	Cobalt Strike 3.12 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.11 (May 24, 2018) [bug fixes]
+468dbaa489ff86bdd173e7c6e208719d4c3cb95adc1fda0b8ceb7d81d2c89d06	Cobalt Strike 3.11 MacOS X Trial Package
+a13e0819ef4609e40ba33f96a6baab43c2cccb74956a5f708b6f4426063544e6	Cobalt Strike 3.11 Linux Trial Package
+848516b701aeb46f248e9a0313fa3406f3b89cd44c3232855f5668ebbe8910f5	Cobalt Strike 3.11 Windows Trial Package
+d37ab96af1cc3f4a98ba63804138f644508e632f3791e3cfdde745d307bff5d9	Cobalt Strike 3.11 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.11 (April 9, 2018)
+d625fc6026a5b07aa9ff759879bce8497fd2e8e5cb62a5efc9f23e140e259d3e	Cobalt Strike 3.11 MacOS X Trial Package
+8a5a4c8088b75d9df1df1d0ba500bcb2d56404412da6cb9288d38e032b35f344	Cobalt Strike 3.11 Linux Trial Package
+05cf861725efd4ab18c2af69133a0a9c1617dd1eb2583b97b6d41bdf658a2711	Cobalt Strike 3.11 Windows Trial Package
+f3e3e645141ffcd5089816f90dee24ded30386277343f3254df05c837a6068aa	Cobalt Strike 3.11 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.10 (December 11, 2017)
+952407771d6b193b58ed0e07ea2e2f647d916aed86e9a8cae64828bc14be5970	Cobalt Strike 3.10 MacOS X Trial Package
+3147cd19146f886fd41a3add6be947f3a4581047d4a7393f01d355c732587336	Cobalt Strike 3.10 Linux Trial Package
+7035a1957ca69daa96c29cc7058b32a772c769cff26e8805b12a10e9f8b1abd5	Cobalt Strike 3.10 Windows Trial Package
+f6fff191e05e3e1345db600f2731fea6324b10e57023e38e712e7f648e8643eb	Cobalt Strike 3.10 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.9 (September 26, 2017) [bug fix II]
+3083bed43aeeb058ef8580c7bd564cbd3910c579ecb535cdc7fd0cb397fe8c05	Cobalt Strike 3.9 MacOS X Trial Package
+fdd15df9dc42717a91f94ae508744f9b584d81503408b34d3c2227895d8d3400	Cobalt Strike 3.9 Linux Trial Package
+d024b760768839bb71aea16eb1d3ff86e67bbacf4539bf743ce9b0cdbbbfdb42	Cobalt Strike 3.9 Windows Trial Package
+20aacc907dddaa528ebfe5fa74743a5366d52dd28073ecfd05a4922fb23ada40	Cobalt Strike 3.9 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.9 (September 21, 2017) [bug fix]
+853b9887b4195b38d2b424c2e2dfeafad5f2b44cff3178b3d5fcdae9cecddd02	Cobalt Strike 3.9 MacOS X Trial Package
+650bd8b279135091c0d77c1057cb5c543b9de356eb4c4797a48e2ee0a5dd5df0	Cobalt Strike 3.9 Linux Trial Package
+0cc1f52f678bc3ae30f81c614ffb7fb051d61a7b4998c739c6ae92487696ccbd	Cobalt Strike 3.9 Windows Trial Package
+a9bde8f8694f1bcd23a3ec9774fe00ba4fad6d80bbf14aadf48940a9cd20b0e5	Cobalt Strike 3.9 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.9 (September 20, 2017)
+be86a78be20b9efbaea50ff6b17545738ef388103f1535b14327b3f2d8081e3f	Cobalt Strike 3.9 MacOS X Trial Package
+1d035cc7eab0d27cfefb61d7eed50ca175ad66af3191c70d60081838e909d92e	Cobalt Strike 3.9 Linux Trial Package
+597268753a1717936136a77d668b26f62997bee8077693f65c3f7003f016209b	Cobalt Strike 3.9 Windows Trial Package
+57090f6e3a5721e4d00ebc57b65bf3c8ca29809f8dd5ac0ac5b31c0ece76f02d	Cobalt Strike 3.9 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.8 (May 23, 2017)
+ad2ddb76ab3f4438d2553a2fa8f98384f8778e6c18e49daaca5f3fca0bbae1e2	Cobalt Strike 3.8 MacOS X Trial Package
+424ad1308b630b5f000405ad36cfec4c811fc2d2a398d1bad3c182e7259a81f5	Cobalt Strike 3.8 Linux Trial Package
+0931929fcdf9c066ca765899e424d6f094879c84ad6624f37fde35e903793f80	Cobalt Strike 3.8 Windows Trial Package
+77ad57b1f29569773350b228d065135c8745949bd80ee7ba59f3b01c27895bfb	Cobalt Strike 3.8 Licensed (cobaltstrike.jar)
+
+# Cobalt Strike 3.7 (March 15, 2017)
+41c02ba399b3d97b6028d49a100b29f76f60e57ed245837d08b3e5c2a894073f	Cobalt Strike 3.7 MacOS X Trial Package
+3b87d9ae634c74e83161f9e549e3af9000340343f9b72fa61a3454d69b9b5dfc	Cobalt Strike 3.7 Linux Trial Package
+8b1722a1989ad1c0e9f8b6f99bae49789c2b9e4a8e1535e0a1556f230cd50515	Cobalt Strike 3.7 Windows Trial Package
+20bebed19e0e1639c7b719d5db70c574417707063fcd669e60349a89485d392b	Cobalt Strike 3.7 Licensed (cobaltstrike.jar)
