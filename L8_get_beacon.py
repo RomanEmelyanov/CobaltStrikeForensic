@@ -4,6 +4,7 @@
 
 import requests, struct, sys, os, urllib3
 
+proxy = {} # {'http' : 'http://127.0.0.1:3128', 'https' : 'https://127.0.0.1:3128'}
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 headers = {"User-Agent":""}
 endian = '<I'
@@ -17,13 +18,22 @@ def is_url(x):
 
 def extract_config(arch):
 	cfg = b''
-	f = open(arch+'.dll', 'rb')
+	dll = arch + '.dll'
+	f = open(dll, 'rb')
 	buf = f.read()
 	f.close()
+	for i in range(len(buf)):
+		if(buf[i]==0x4d and buf[i+1]==0x5a): # MZ header
+			break
+	if(i>0):
+		print('Stage transform-' + arch + ' prepend detected', buf[:i])
+		f = open(dll, 'wb')
+		f.write(buf[i:])
+		f.close()
+		os.system('file '+dll)
 	for i in range(len(buf)//4):
 		chunk = struct.unpack_from(endian, buf, i*4)[0] ^ 0x69696969
 		cfg += struct.pack(endian, chunk)
-
 	offset = cfg.find(b'Mozilla/')
 	if(offset>0):
 		print('UA beacon configuration found at', hex(offset) )
@@ -45,7 +55,7 @@ def get_beacon(cs_url, cs_path, arch):
 	cs_url = cs_url + cs_path
 	print('Trying to get ' + arch + ' beacon by', cs_url)
 	try:
-		resp = requests.get(cs_url, timeout=10, headers=headers, verify=False)
+		resp = requests.get(cs_url, timeout=10, headers=headers, proxies = proxy, verify=False)
 	except requests.exceptions.RequestException as e:
 		print('Connection error: ', e)
 		sys.exit()
@@ -66,8 +76,8 @@ def get_beacon(cs_url, cs_path, arch):
 			size = (struct.unpack_from(endian, buf, offset+4)[0]) ^ key
 			c = struct.unpack_from(endian, buf, offset+8)[0] ^ key
 			mz = c & 0xffff
-			if(mz!=0x5a4d):
-				print(' ### Decode goes wrong, possible cracked version: ' + hex(mz) + ' ###')
+			if( not (mz==0x5a4d or mz==0x9090) ):
+				print(' ### Decode goes wrong, possible custom configuration or cracked version: ' + hex(mz) + ' ###')
 				f.write(buf)
 				size = len(buf)
 				print('Cracked beacon', arch, 'dll size', size, 'bytes saved to', arch + '.dll')
