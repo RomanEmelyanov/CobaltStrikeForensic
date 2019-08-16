@@ -1,0 +1,3 @@
+on ready { closeClient(); }
+listener_create("http", "windows/beacon_http/reverse_http", "127.0.0.1", 80, "127.0.0.1");
+listener_create("https", "windows/beacon_https/reverse_https", "127.0.0.1", 443, "127.0.0.1");
