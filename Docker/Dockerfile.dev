@@ -1,0 +1,10 @@
+FROM kalilinux/kali-linux-docker
+MAINTAINER Roman Emelyanov <ers@ers.msk.ru>
+SHELL ["/bin/bash", "-c"]
+RUN apt-get -y update
+RUN apt-get install -y wget curl net-tools sudo openjdk-8-jdk python3-pip build-essential
+RUN pip3 install pycryptodome requests pyinstaller
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
+RUN export JAVA_HOME
+WORKDIR / 
+ENTRYPOINT ["/bin/bash"]

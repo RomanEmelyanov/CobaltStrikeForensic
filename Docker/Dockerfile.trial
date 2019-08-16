@@ -1,0 +1,11 @@
+FROM cs/dev
+MAINTAINER Roman Emelyanov <ers@ers.msk.ru>
+RUN mkdir /opt/cobaltstrike && mkdir /run/sshd
+RUN apt-get install -y telnet ssh
+COPY ./docker-entrypoint.sh /opt/
+COPY ./cobaltstrike-trial.tgz /opt/
+RUN chmod +x /opt/docker-entrypoint.sh
+WORKDIR /opt/cobaltstrike 
+EXPOSE 50050
+ENTRYPOINT ["/opt/docker-entrypoint.sh"]
+
